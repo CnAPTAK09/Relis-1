@@ -5,25 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <header class="header">
         <div class="logo-location">
           <img src="logo.png" class="logo">
-          <p class="location">вул. Бандери 44/5</p>
+          <p class="location"><i class="fa-solid fa-location-dot"></i>вул. Бандери 44/5</p>
         </div>
         
         <div class="search-bar">
-          <input type="text" placeholder="Search coffee and more">
+          <i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Search coffee and more">
         </div>
       
         <nav class="nav-icons">
-          <a href="#" class="nav-item">Account</a>
-          <a href="#" class="nav-item">Orders</a>
-          <a href="#" class="nav-item">Favorite</a>
-          <a href="#" class="nav-item">Cart</a>
+          <a href="#" class="nav-item"><i class="fa-solid fa-user"></i>Account</a>
+          <a href="#" class="nav-item"><i class="fa-solid fa-clock-rotate-left"></i>Orders</a>
+          <a href="#" class="nav-item"><i class="fa-solid fa-heart"></i>Favorite</a>
+          <a href="#" class="nav-item"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
         </nav>
       </header>
+
+      <main class="main-content">
+        <section class="banners">
+          <div class="banner large-banner">
+            <img src="banner.png" class="banner">
+            <h2>The art of the roast</h2>
+            <p>With a new roast spectrum frontand center on our coffee bags, it's easier than ever to find a taste you love.
+            </p>
+            <button>Order now</button>
+          </div>
+          <div class="banner small-banner">
+            <img src="hero__product-image.png" class="hero__product-image">
+            <h2>Spinach, Feta & Egg Wrap</h2>
+            <p>$1.76 <del>$2.36</del></p>
+            <button>Apply promo code</button>
+          </div>
+        </section>
+      
+        <section class="categories">
+          <h2>Shop by category</h2>
+          <div class="category-grid">
+            <div class="category">Seasonal novelties</div>
+            <div class="category">Popular</div>
+            <div class="category"><img src="coffees.png" class="coffees">Coffee</div>
+            <div class="category">Tea</div>
+            <div class="category">Merchandise</div>
+            <div class="category">Food</div>
+          </div>
+        </section>
+      
+        <section class="gift-cards">
+          <h2>Gift Cards</h2>
+          <p>Give the gift of coffee to someone special.</p>
+          <button>Shop gift cards</button>
+        </section>
+      </main>
+
     <script src="script.js"></script>
 </body>
 </html>
